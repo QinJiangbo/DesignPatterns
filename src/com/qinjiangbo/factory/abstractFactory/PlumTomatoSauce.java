@@ -1,0 +1,13 @@
+package com.qinjiangbo.factory.abstractFactory;
+
+/**
+ * Created by IntelliJ IDEA.
+ * Date: 9/13/15 3:47 PM
+ * Author: Richard
+ */
+public class PlumTomatoSauce implements Sauce {
+
+    public PlumTomatoSauce() {
+        System.out.println("Plum Tomato Sauce");
+    }
+}
