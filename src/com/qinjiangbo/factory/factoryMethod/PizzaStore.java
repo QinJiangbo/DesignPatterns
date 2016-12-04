@@ -1,9 +1,8 @@
 package com.qinjiangbo.factory.factoryMethod;
 
 /**
- * Created by IntelliJ IDEA.
- * Date: 9/13/15 11:18 AM
- * Author: Richard
+ * @date: 9/13/15 11:18 AM
+ * @author: qinjiangbo@github.io
  */
 public abstract class PizzaStore {
 
