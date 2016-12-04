@@ -15,6 +15,7 @@ public class TestDecorator {
 
     public static void main(String[] args) {
         Beverage beverage = new Whip(new Soy(new Milk(new DarkRoast())));
-        System.out.println(beverage.getDescription());
+        System.out.println("description: " + beverage.getDescription());
+        System.out.println("cost: " + beverage.cost());
     }
 }
