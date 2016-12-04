@@ -7,7 +7,7 @@ import com.qinjiangbo.decorator.component.Beverage;
  * Date: 8/22/15 6:04 PM
  * Author: Richard
  */
-public class Milk extends Condiment {
+public class Milk extends CondimentDecorator {
 
     Beverage beverage;
 

@@ -7,7 +7,7 @@ import com.qinjiangbo.decorator.component.Beverage;
  * Date: 8/22/15 6:13 PM
  * Author: Richard
  */
-public class Whip extends Condiment {
+public class Whip extends CondimentDecorator {
 
     public Beverage beverage;
 

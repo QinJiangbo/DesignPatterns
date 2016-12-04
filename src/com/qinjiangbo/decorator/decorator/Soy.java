@@ -7,7 +7,7 @@ import com.qinjiangbo.decorator.component.Beverage;
  * Date: 8/22/15 6:11 PM
  * Author: Richard
  */
-public class Soy extends Condiment {
+public class Soy extends CondimentDecorator {
 
     public Beverage beverage;
 

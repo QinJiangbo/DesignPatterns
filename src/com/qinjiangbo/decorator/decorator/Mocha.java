@@ -7,7 +7,7 @@ import com.qinjiangbo.decorator.component.Beverage;
  * Date: 8/22/15 6:10 PM
  * Author: Richard
  */
-public class Mocha extends Condiment {
+public class Mocha extends CondimentDecorator {
 
     public Beverage beverage;
 
