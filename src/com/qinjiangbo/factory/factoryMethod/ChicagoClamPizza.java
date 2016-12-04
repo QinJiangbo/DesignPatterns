@@ -6,4 +6,8 @@ package com.qinjiangbo.factory.factoryMethod;
  * Author: Richard
  */
 public class ChicagoClamPizza extends Pizza {
+
+    public ChicagoClamPizza() {
+        System.out.println("Chicago Clam Pizza!");
+    }
 }

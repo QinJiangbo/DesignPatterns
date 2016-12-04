@@ -8,6 +8,6 @@ package com.qinjiangbo.factory.factoryMethod;
 public class NYClamPizza extends Pizza {
 
     public NYClamPizza() {
-        System.out.println("Clam Pizza!");
+        System.out.println("New York Clam Pizza!");
     }
 }

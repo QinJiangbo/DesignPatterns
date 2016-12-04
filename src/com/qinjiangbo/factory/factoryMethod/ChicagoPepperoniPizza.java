@@ -6,4 +6,8 @@ package com.qinjiangbo.factory.factoryMethod;
  * Author: Richard
  */
 public class ChicagoPepperoniPizza extends Pizza {
+
+    public ChicagoPepperoniPizza() {
+        System.out.println("Chicago Pepperoni Pizza!");
+    }
 }
