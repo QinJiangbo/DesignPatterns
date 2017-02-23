@@ -1,8 +1,10 @@
 package com.qinjiangbo.command.test;
 
 import com.qinjiangbo.command.command.LightOnCommand;
+import com.qinjiangbo.command.command.TVOnCommand;
 import com.qinjiangbo.command.invoker.SimpleRemoteControl;
 import com.qinjiangbo.command.receiver.Light;
+import com.qinjiangbo.command.receiver.TV;
 
 /**
  * Created by IntelliJ IDEA.
@@ -19,5 +21,14 @@ public class SimpleRemoteControlTest {
 
         simpleRemoteControl.setCommand(lightOn);
         simpleRemoteControl.buttonWasPressed();
+
+        System.out.println("============================");
+
+        TV tv = new TV("Living room");
+        TVOnCommand tvOn = new TVOnCommand(tv);
+
+        simpleRemoteControl.setCommand(tvOn);
+        simpleRemoteControl.buttonWasPressed();
+        simpleRemoteControl.back();
     }
 }

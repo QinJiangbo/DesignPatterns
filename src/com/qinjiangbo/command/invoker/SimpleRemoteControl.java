@@ -22,4 +22,8 @@ public class SimpleRemoteControl {
     public void buttonWasPressed() {
         slot.execute();
     }
+
+    public void back() {
+        slot.undo();
+    }
 }
