@@ -9,10 +9,6 @@ public class Light {
 
     private String type = "";
 
-    public Light() {
-
-    }
-
     public Light(String type) {
         this.type = type;
     }
