@@ -9,7 +9,7 @@ import com.qinjiangbo.command.receiver.Light;
  */
 public class LightOffCommand implements Command {
 
-    Light light; // receiver
+    Light light;
 
     public LightOffCommand(Light light) {
         this.light = light;
