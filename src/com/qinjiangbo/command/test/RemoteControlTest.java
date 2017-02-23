@@ -1,8 +1,9 @@
 package com.qinjiangbo.command.test;
 
 import com.qinjiangbo.command.command.*;
-import com.qinjiangbo.command.pojo.Light;
-import com.qinjiangbo.command.pojo.Stereo;
+import com.qinjiangbo.command.invoker.RemoteControl;
+import com.qinjiangbo.command.receiver.Light;
+import com.qinjiangbo.command.receiver.Stereo;
 
 /**
  * Created by IntelliJ IDEA.

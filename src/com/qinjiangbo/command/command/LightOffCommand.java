@@ -1,6 +1,6 @@
 package com.qinjiangbo.command.command;
 
-import com.qinjiangbo.command.pojo.Light;
+import com.qinjiangbo.command.receiver.Light;
 
 /**
  * Created by IntelliJ IDEA.
@@ -9,7 +9,7 @@ import com.qinjiangbo.command.pojo.Light;
  */
 public class LightOffCommand implements Command {
 
-    Light light;
+    Light light; // receiver
 
     public LightOffCommand(Light light) {
         this.light = light;

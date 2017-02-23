@@ -1,6 +1,6 @@
 package com.qinjiangbo.command.command;
 
-import com.qinjiangbo.command.pojo.Stereo;
+import com.qinjiangbo.command.receiver.Stereo;
 
 /**
  * Created by IntelliJ IDEA.

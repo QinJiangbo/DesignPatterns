@@ -1,4 +1,7 @@
-package com.qinjiangbo.command.command;
+package com.qinjiangbo.command.invoker;
+
+import com.qinjiangbo.command.command.Command;
+import com.qinjiangbo.command.command.NoCommand;
 
 /**
  * Created by IntelliJ IDEA.

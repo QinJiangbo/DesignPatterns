@@ -1,4 +1,4 @@
-package com.qinjiangbo.command.pojo;
+package com.qinjiangbo.command.receiver;
 
 /**
  * Created by IntelliJ IDEA.

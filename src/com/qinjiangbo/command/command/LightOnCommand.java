@@ -1,6 +1,6 @@
 package com.qinjiangbo.command.command;
 
-import com.qinjiangbo.command.pojo.Light;
+import com.qinjiangbo.command.receiver.Light;
 
 /**
  * Created by IntelliJ IDEA.
