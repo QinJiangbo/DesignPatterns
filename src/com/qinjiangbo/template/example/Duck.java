@@ -21,6 +21,12 @@ public class Duck implements Comparable {
 
     @Override
     public int compareTo(Object o) {
+        Duck otherDuck = (Duck) o;
+        if (this.weight < otherDuck.weight) {
+            return -1;
+        } else if (this.weight > otherDuck.weight) {
+            return 1;
+        }
         return 0;
     }
 }
