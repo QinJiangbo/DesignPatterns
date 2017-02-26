@@ -1,7 +1,7 @@
 package com.qinjiangbo.template.test;
 
-import com.qinjiangbo.template.main.Coffee;
-import com.qinjiangbo.template.main.Tea;
+import com.qinjiangbo.template.methods.Coffee;
+import com.qinjiangbo.template.methods.Tea;
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package com.qinjiangbo.template.main;
+package com.qinjiangbo.template.methods;
 
 /**
  * Created by IntelliJ IDEA.
