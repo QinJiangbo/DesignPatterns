@@ -23,7 +23,7 @@ public class DuckSortTest {
         /* sorting */
         Arrays.sort(ducks);
 
-        System.out.println("After sorting...");
+        System.out.println("\nAfter sorting...");
         display(ducks);
     }
 
