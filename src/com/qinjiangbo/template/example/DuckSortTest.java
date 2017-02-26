@@ -20,7 +20,7 @@ public class DuckSortTest {
         System.out.println("Before sorting...");
         display(ducks);
 
-        /* sorting */
+        /* template method */
         Arrays.sort(ducks);
 
         System.out.println("\nAfter sorting...");
