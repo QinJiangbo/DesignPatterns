@@ -43,4 +43,8 @@ public class DinerMenu {
             menuItems[numberOfItems++] = menuItem;
         }
     }
+
+    public MenuItem[] getMenuItems() {
+        return menuItems;
+    }
 }
