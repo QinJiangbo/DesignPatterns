@@ -6,7 +6,7 @@ import java.util.Iterator;
  * @date: 28/02/2017 9:03 PM
  * @author: qinjiangbo@github.io
  */
-public class DinerMenu {
+public class DinerMenu implements Menu {
 
     private static final int MAX_SIZE = 6;
     private int numberOfItems = 0;
@@ -50,6 +50,7 @@ public class DinerMenu {
         return menuItems;
     }
 
+    @Override
     public Iterator createMenuIterator() {
         return new DinerMenuIterator(menuItems);
     }
