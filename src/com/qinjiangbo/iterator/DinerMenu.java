@@ -1,5 +1,7 @@
 package com.qinjiangbo.iterator;
 
+import java.util.Iterator;
+
 /**
  * @date: 28/02/2017 9:03 PM
  * @author: qinjiangbo@github.io
@@ -46,5 +48,9 @@ public class DinerMenu {
 
     public MenuItem[] getMenuItems() {
         return menuItems;
+    }
+
+    public Iterator createMenuIterator() {
+        return new DinerMenuIterator(menuItems);
     }
 }

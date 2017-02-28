@@ -1,6 +1,7 @@
 package com.qinjiangbo.iterator;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @date: 28/02/2017 9:03 PM
@@ -43,5 +44,9 @@ public class PancakeMenu {
 
     public ArrayList getMenuItems() {
         return menuItems;
+    }
+
+    public Iterator createMenuIterator() {
+        return new PancakeMenuIterator(menuItems);
     }
 }
