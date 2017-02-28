@@ -5,4 +5,5 @@ package com.qinjiangbo.iterator;
  * @author: qinjiangbo@github.io
  */
 public class Waitress {
+
 }

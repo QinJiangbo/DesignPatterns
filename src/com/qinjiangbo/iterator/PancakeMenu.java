@@ -6,11 +6,11 @@ import java.util.ArrayList;
  * @date: 28/02/2017 9:03 PM
  * @author: qinjiangbo@github.io
  */
-public class PancakeHouseMenu {
+public class PancakeMenu {
 
     ArrayList menuItems;
 
-    public PancakeHouseMenu() {
+    public PancakeMenu() {
         menuItems = new ArrayList();
 
         addItem("K&B's Pancake Breakfast",
