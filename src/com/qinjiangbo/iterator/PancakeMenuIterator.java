@@ -1,5 +1,6 @@
 package com.qinjiangbo.iterator;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
@@ -8,13 +9,22 @@ import java.util.Iterator;
  */
 public class PancakeMenuIterator implements Iterator {
 
+    ArrayList menuItems;
+    int position = 0;
+
+    public PancakeMenuIterator(ArrayList menuItems) {
+        this.menuItems = menuItems;
+    }
+
     @Override
     public boolean hasNext() {
-        return false;
+        return position < menuItems.size()
+                && menuItems.get(position) != null;
     }
 
     @Override
     public Object next() {
-        return null;
+        MenuItem menuItem = (MenuItem) menuItems.get(position++);
+        return menuItem;
     }
 }

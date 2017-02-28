@@ -8,13 +8,22 @@ import java.util.Iterator;
  */
 public class DinerMenuIterator implements Iterator {
 
+    MenuItem[] menuItems;
+    int position = 0;
+
+    public DinerMenuIterator(MenuItem[] menuItems) {
+        this.menuItems = menuItems;
+    }
+
     @Override
     public boolean hasNext() {
-        return false;
+        return position < menuItems.length
+                && menuItems[position] != null;
     }
 
     @Override
     public Object next() {
-        return null;
+        MenuItem menuItem = menuItems[position++];
+        return menuItem;
     }
 }
