@@ -42,10 +42,6 @@ public class PancakeMenu implements Menu {
         menuItems.add(menuItem);
     }
 
-    public ArrayList getMenuItems() {
-        return menuItems;
-    }
-
     @Override
     public Iterator createMenuIterator() {
         return menuItems.iterator();
