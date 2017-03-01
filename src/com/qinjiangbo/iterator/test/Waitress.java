@@ -1,4 +1,9 @@
-package com.qinjiangbo.iterator;
+package com.qinjiangbo.iterator.test;
+
+import com.qinjiangbo.iterator.iter.DinerMenuIterator;
+import com.qinjiangbo.iterator.menu.DinerMenu;
+import com.qinjiangbo.iterator.menu.MenuItem;
+import com.qinjiangbo.iterator.menu.PancakeMenu;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package com.qinjiangbo.iterator;
+package com.qinjiangbo.iterator.menu;
 
 /**
  * @date: 28/02/2017 8:53 PM

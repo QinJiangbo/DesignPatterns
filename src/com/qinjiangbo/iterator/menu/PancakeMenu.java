@@ -1,4 +1,4 @@
-package com.qinjiangbo.iterator;
+package com.qinjiangbo.iterator.menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;

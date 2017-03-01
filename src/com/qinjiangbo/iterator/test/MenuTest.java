@@ -1,4 +1,7 @@
-package com.qinjiangbo.iterator;
+package com.qinjiangbo.iterator.test;
+
+import com.qinjiangbo.iterator.menu.DinerMenu;
+import com.qinjiangbo.iterator.menu.PancakeMenu;
 
 /**
  * @date: 28/02/2017 9:45 PM
