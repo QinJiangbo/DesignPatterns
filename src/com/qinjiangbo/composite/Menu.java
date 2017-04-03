@@ -1,6 +1,7 @@
 package com.qinjiangbo.composite;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @date: 03/04/2017 11:40 PM
@@ -42,5 +43,12 @@ public class Menu extends MenuComponent {
         System.out.println("\n " + getName());
         System.out.println(",  " + getDescription());
         System.out.println("---------------------");
+
+        Iterator iterator = menuComponents.iterator();
+        while (iterator.hasNext()) {
+            MenuComponent menuComponent =
+                    (MenuComponent) iterator.next();
+            menuComponent.print();
+        }
     }
 }
