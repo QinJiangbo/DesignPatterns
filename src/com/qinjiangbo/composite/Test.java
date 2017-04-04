@@ -31,5 +31,11 @@ public class Test {
         Waitress waitress = new Waitress(allMenus);
         waitress.printMenu();
 
+        System.out.println("====================");
+
+        dinerMenu.remove(new MenuItem("Gong Bao Ji Ding", "An old food",
+                true, 20.32));
+        waitress.printMenu();
+
     }
 }

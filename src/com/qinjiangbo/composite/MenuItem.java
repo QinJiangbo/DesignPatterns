@@ -50,4 +50,16 @@ public class MenuItem extends MenuComponent {
         System.out.println(",  " + getPrice());
         System.out.println("     -- " + getDescription());
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null && obj instanceof MenuItem) {
+            MenuItem o = (MenuItem) obj;
+            return o.getDescription().equals(description) &&
+                    o.getName().equals(name) &&
+                    o.getPrice() == price &&
+                    o.isVegetarian() == vegetarian;
+        }
+        return false;
+    }
 }
