@@ -1,4 +1,4 @@
-package com.qinjiangbo.composite;
+package com.qinjiangbo.composite.demo1;
 
 import java.util.ArrayList;
 import java.util.Iterator;

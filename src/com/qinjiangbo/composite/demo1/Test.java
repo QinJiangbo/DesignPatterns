@@ -1,4 +1,4 @@
-package com.qinjiangbo.composite;
+package com.qinjiangbo.composite.demo1;
 
 /**
  * @date: 03/04/2017 11:50 PM
