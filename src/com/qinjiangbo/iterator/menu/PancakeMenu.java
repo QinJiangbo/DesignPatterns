@@ -1,5 +1,7 @@
 package com.qinjiangbo.iterator.menu;
 
+import com.qinjiangbo.iterator.iter.PancakeMenuIterator;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -44,6 +46,6 @@ public class PancakeMenu implements Menu {
 
     @Override
     public Iterator createMenuIterator() {
-        return menuItems.iterator();
+        return new PancakeMenuIterator(menuItems);
     }
 }
