@@ -7,6 +7,5 @@ import java.util.Iterator;
  * @author: qinjiangbo@github.io
  */
 public interface Menu {
-
     public Iterator createMenuIterator();
 }
