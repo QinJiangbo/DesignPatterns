@@ -7,7 +7,6 @@ package com.qinjiangbo.state;
 public class ATM {
 
     private State state;
-    private int count = 10000;
 
     public ATM() {
         state = new SufficientState(this);
