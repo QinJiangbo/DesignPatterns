@@ -13,4 +13,8 @@ public class DB {
         return total;
     }
 
+    public static int query() {
+        return total;
+    }
+
 }

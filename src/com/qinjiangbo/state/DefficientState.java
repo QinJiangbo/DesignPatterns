@@ -14,6 +14,12 @@ public class DefficientState implements State {
 
     @Override
     public void handle() {
-        System.out.println("NOT SUFFICIENT IS AVAILABLE!");
+        if (DB.query() > 0) {
+            DB.take(1000);
+            atm.setState(new SufficientState(atm));
+            System.out.println("$1000 HAVE BEEN TAKEN!");
+        } else {
+            System.out.println("NOT SUFFICIENT IS AVAILABLE!");
+        }
     }
 }
