@@ -8,11 +8,9 @@ public class DB {
 
     private static int total = 10000;
 
-    public static void take(int num) {
+    public static int take(int num) {
         total = total - num;
-    }
-
-    public static int query() {
         return total;
     }
+
 }

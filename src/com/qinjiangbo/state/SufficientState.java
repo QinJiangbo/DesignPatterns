@@ -14,6 +14,10 @@ public class SufficientState implements State {
 
     @Override
     public void handle() {
-
+        int count = DB.take(1000);
+        if (count == 0) {
+            atm.setState(new DefficientState(atm));
+        }
+        System.out.println("$1000 HAVE BEEN TAKEN!");
     }
 }
