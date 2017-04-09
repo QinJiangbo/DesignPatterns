@@ -7,15 +7,18 @@ package com.qinjiangbo.state;
 public class ATM {
 
     private State state;
-    private int count;
+    private int count = 10000;
 
     public ATM() {
-        count = 100000;
-        state = new EnoughState();
+        state = new SufficientState(this);
     }
 
-    public void withdraw(int number) {
+    public void withdraw() {
+        state.handle();
+    }
 
+    public void setState(State state) {
+        this.state = state;
     }
 
 }

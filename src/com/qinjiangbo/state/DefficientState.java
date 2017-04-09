@@ -6,8 +6,14 @@ package com.qinjiangbo.state;
  */
 public class DefficientState implements State {
 
-    @Override
-    public void handle(int number) {
+    private ATM atm;
 
+    public DefficientState(ATM atm) {
+        this.atm = atm;
+    }
+
+    @Override
+    public void handle() {
+        System.out.println("NOT SUFFICIENT IS AVAILABLE!");
     }
 }

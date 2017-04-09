@@ -6,8 +6,14 @@ package com.qinjiangbo.state;
  */
 public class SufficientState implements State {
 
+    private ATM atm;
+
+    public SufficientState(ATM atm) {
+        this.atm = atm;
+    }
+
     @Override
-    public void handle(int number) {
+    public void handle() {
 
     }
 }

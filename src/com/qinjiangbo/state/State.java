@@ -6,5 +6,5 @@ package com.qinjiangbo.state;
  */
 public interface State {
 
-    void handle(int number);
+    void handle();
 }
