@@ -6,17 +6,18 @@ qinjiangbo1994@163.com
 ## Contents
 So far the following Design Patterns have been covered in this repo.
 
-- Adapter 
-- Command 
-- Composite 
-- Decorator 
-- Facade 
-- Factory 
-- Iterator 
-- Observer 
-- Singleton 
+- Adapter
+- Command
+- Composite
+- Decorator
+- Facade
+- Factory
+- Iterator
+- Observer
+- Singleton
 - Strategy
 - Template
+- State
 
 ## Website
 If you want to know more about these Design Patterns, come!
