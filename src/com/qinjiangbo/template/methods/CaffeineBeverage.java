@@ -7,7 +7,7 @@ package com.qinjiangbo.template.methods;
  */
 public abstract class CaffeineBeverage {
 
-    //template method
+    // 模板方法，封装了上述的四个步骤
     public final void prepareRecipe() {
         boilWater();
         brew();
@@ -15,12 +15,14 @@ public abstract class CaffeineBeverage {
         addCondiments();
     }
 
+    // 具体方法，因为这一步大家都一样
     public void boilWater() {
         System.out.println("Boiling water...");
     }
 
     abstract void brew();
 
+    // 具体方法，因为这一步大家都一样
     public void pourInCup() {
         System.out.println("Pouring in cup...");
     }
